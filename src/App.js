@@ -1,10 +1,10 @@
 import Hook from './components/Hook'
-import './App.css';
-
+import Uswo from './components/usestate/Uswo'
 function App() {
   return (
     <div >
-     <Hook/>
+     {/* <Hook/> */}
+     <Uswo/>
     </div>
   );
 }
