@@ -9,9 +9,15 @@ function Uswo() {
         countmsg(e.target.value)
     }
     let objecthandle=(e)=>{
-        objmsg.message=e.target.value;
-        objmsgf(objmsg);
-        console.log(objmsg);
+        console.log('render');
+        // // here we are changing our message directly or muttatively so nothing will seen in the console
+        // objmsg.message = e.target.value;
+        // objmsgf(objmsg);
+        // console.log(objmsg);
+
+        // If we want to see the typed message in our console then we have to update object immutatively means by creating a new one
+       let obj={...objmsg,message:e.target.value};
+       objmsgf(obj);
     }
    
 
