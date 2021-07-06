@@ -16,7 +16,7 @@ function Uswo() {
         // console.log(objmsg);
 
         // If we want to see the typed message in our console then we have to update object immutatively means by creating a new one
-       let obj={...objmsg,message:e.target.value};
+       let obj={...objmsg,message:e.target.value};//shallow copy
        objmsgf(obj);
     }
    
