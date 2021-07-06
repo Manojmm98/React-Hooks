@@ -4,6 +4,7 @@ import Ue1 from './components/useEffect/Ue1'
 import Ue2 from './components/useEffect/Use2'
 import Infinite from './components/useEffect/Infinite'
 import Ue3 from './components/useEffect/Ue3'
+import Uce1 from './components/useEffect/Useeffect-clean-up/Uce1'
 function App() {
   return (
     <div >
@@ -11,7 +12,8 @@ function App() {
      {/* <Uswo/> */}
      {/* <Ue1/> */}
      {/* <Ue2/> */}
-     <Ue3/>
+     {/* <Ue3/> */}
+     <Uce1/>
     </div>
   );
 }
