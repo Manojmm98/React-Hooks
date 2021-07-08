@@ -28,4 +28,4 @@ When to use Context ??
 
 
 
-usecontext---> By using usecontext we can  update Mycontext value by importing but if we want to make some changes in it then we have to use <Mycontext provider></Mycontext provider>
+usecontext---> By using usecontext we can  update Mycontext value by importing but if we want to make some changes in it then we have to use <Mycontext.provider></Mycontext.provider>

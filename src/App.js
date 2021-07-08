@@ -6,6 +6,7 @@ import Infinite from './components/useEffect/Infinite'
 import Ue3 from './components/useEffect/Ue3'
 import Uce1 from './components/useEffect/Useeffect-clean-up/Uce1'
 import Demo from './components/ContextAPI/Demo';
+import Main from './components/ContextAPI/Main';
 function App() {
   return (
     <div >
@@ -15,7 +16,8 @@ function App() {
      {/* <Ue2/> */}
      {/* <Ue3/> */}
      {/* <Uce1/> */}
-     <Demo/>
+     {/* <Demo/> */}
+     <Main/>
     </div>
   );
 }

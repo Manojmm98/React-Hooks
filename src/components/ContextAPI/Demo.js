@@ -4,9 +4,10 @@ import Mycontext from './Context'
 // we want to render demochild under demo so we have to render it
 import Demochild from './Demochild'
 function Demo() {
+    console.log('Demo render');
     // here we get the mycontext value using usecontext and stored it in val
-    let val = useContext(Mycontext);
-    console.log(val);
+    //let val = useContext(Mycontext);
+    //console.log(val);
     return (
         <div>
             <Demochild/>
@@ -14,4 +15,4 @@ function Demo() {
     )
 }
 
-export default Demo
+export  default React.memo(Demo)
