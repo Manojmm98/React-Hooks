@@ -3,7 +3,7 @@ import ThemeContext from './ThemeContext';
 import Dropdown from './Dropdown';
 import Category from './Category';
 function Navbar() {
-    // const value = useContext(ThemeContext);
+     const value = useContext(ThemeContext);
     // console.log(value);
   
     const navStyle = {
